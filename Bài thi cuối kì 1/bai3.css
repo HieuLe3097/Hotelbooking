@@ -1,0 +1,62 @@
+.user-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-control {
+  position: absolute;
+  top: 15px;
+  left: 70px;
+  height: 30px;
+  width: 300px;
+}
+/* .container div.user-card .card{
+        margin: 50px;
+      }  */
+.container div.user-card:hover {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.user-card .card {
+  width: 200px;
+  height: 150px;
+  border: none;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+.user-card .card-img-top {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-card .card-title {
+  margin-bottom: 0;
+}
+
+.user-card .card-text {
+  margin-top: 5px;
+  font-size: 14px;
+  display: inline-block;
+  width: 200%;
+}
+.user-card .skill {
+  border: 1px solid gray;
+  padding: 2px 5px;
+  margin-right: 5px;
+  color: #1e90ff;
+  font-size: 13px;
+  border-radius: 10px;
+}
+.container li:hover {
+  background-color: blue;
+  border: 1px solid blue;
+  color: white;
+  border-radius: 8px;
+}
