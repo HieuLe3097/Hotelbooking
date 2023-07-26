@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-section {
+  text-align: center;
+}
+
+.text-section h2 {
+  font-size: 42px;
+  color: orange;
+}
+
+.text-section p {
+  font-size: 18px;
+}
+
+.booking-options {
+  text-align: center;
+}
+
+.booking-options .booking-options-row {
+  display: flex;
+  justify-content: center;
+  gap: 260px;
+}
+
+.booking-option {
+  max-width: 200px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+}
+
+.booking-option h6 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: orange;
+}
+
+.booking-option p {
+  font-size: 16px;
+}
+
+.booking-option i {
+  color: orange;
+}
+
+.contact-map-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.map-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+#map {
+  height: 360px;
+  width: 70%;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .text-section h2 {
+    font-size: 28px;
+    color: orange;
+  }
+
+  .text-section p {
+    font-size: 24px;
+  }
+
+  .booking-options .booking-options-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .booking-option {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .map-container {
+    min-width: auto;
+  }
+
+  #map {
+    height: 300px;
+    width: 350px;
+  }
+
+  .contact-form {
+    max-width: 300px;
+    height: 300px;
+  }
+
+  .contact-form h2 {
+    font-size: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+    height: 100%;
+    width: 280px;
+  }
+
+  .contact-form button {
+    font-size: 14px;
+  }
+}
